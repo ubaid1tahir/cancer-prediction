@@ -7,7 +7,7 @@ import streamlit as st
 warnings.filterwarnings('ignore')
 
 # Load your pre-trained model
-model = load(r"C:\Users\mu499\Downloads\Cancer-Prediction-Model (Only Useful Features).jbl")
+model = load(r"Cancer-Prediction-Model (Only Useful Features).jbl")
 
 def main():
     st.title('Breast Cancer Diagnosis Predictor')
